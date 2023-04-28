@@ -96,9 +96,9 @@ main #section2{
 	font-weight: 100;
 }
 
-main #section3{
+#section3Container1{
 	background-color: #E5E7EB;
-	padding: 70px auto;
+	padding: 70px 0;
 }
 #section3 p:nth-child(1){
 	font-size: 36px;
@@ -110,9 +110,35 @@ main #section3{
 }
 #section3 p:nth-child(2){
 	max-width: 800px;
+	margin: 0 auto;
 	text-align: end;
 }
 
+
+
+#section4{
+	height: 200px;
+	padding: 50px 150px;
+}
+#section4 div{
+	height: 100px;
+	background-color: #3882F6;
+	color: #F9FAF8;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 5px;
+}
+#section4 div p{
+	font-weight: 100;
+}
+#section4 div button{
+	border: 1px solid #F9FAF8;
+	border-radius: 5px;
+	background-color: #3882F6;
+	color: #F9FAF8;
+	padding: 4px 20px;
+}
 
 
 footer{
